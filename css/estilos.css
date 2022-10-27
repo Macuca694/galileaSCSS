@@ -1,0 +1,538 @@
+@media (min-width: 992px) {
+  .vestidoIndex {
+    width: 35%;
+    animation-name: imagenAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: initial; }
+  @keyframes imagenAnimation {
+    from {
+      margin-left: -1000px; } }
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #553639; }
+  .contenedorUnoIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .contenedorUnoIndex h2 {
+    color: #553639; }
+  .contenedorDosIndex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px; }
+  .hijoUno img {
+    width: 80%; }
+  .camison {
+    width: 70%; }
+  .hijoUno h3, .hijoDos h3 {
+    font-size: 45px;
+    text-align: center; }
+  /* PAGINA PRODUCTOS*/
+  .contenedorProd1 {
+    display: flex;
+    align-items: center; }
+  .contenedorProd1 h2 {
+    margin-left: 20px;
+    font-size: 40px; }
+  .contenedorProd2 {
+    display: flex;
+    justify-content: end;
+    align-items: center; }
+  .contenedorProd2 h3 {
+    margin-right: 20px;
+    font-size: 40px; }
+  .contenedorProd3 {
+    display: flex;
+    align-items: center; }
+  .contenedorProd3 h2 {
+    margin-left: 20px;
+    font-size: 40px; }
+  /* PAGINA PREGUNTAS FRECUENTES */
+  .preguntasUno {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    justify-content: space-evenly; }
+  .preguntasDos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 30px; }
+  .preguntasDos p {
+    width: 50%;
+    text-align: right;
+    font-size: 25px; }
+  .preguntasDos h2, .preguntasTres h2, .preguntasCuatro h3 {
+    font-size: 40px; }
+  .preguntasTres {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px; }
+  .preguntasTres p {
+    width: 50%;
+    font-size: 25px; }
+  .preguntasCuatro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 30px; }
+  .preguntasCuatro p {
+    width: 50%;
+    font-size: 25px;
+    text-align: right; }
+  /*QUIENES SOMOS */
+  .nosotrosUno {
+    display: flex;
+    margin-top: 70px;
+    align-items: center; }
+  .nosotrosUno img {
+    width: 50%; }
+  .nosotrosUno div {
+    margin: 50px; }
+  .nosotrosUno p {
+    font-size: 25px;
+    text-align: center; }
+  .nosotrosDos {
+    width: 40%;
+    font-size: 30px;
+    text-align: center;
+    padding: 2rem; }
+  .videoNosotros {
+    display: flex;
+    justify-content: center;
+    margin: 90px; }
+  .videoNosotros iframe {
+    width: 50%; }
+  /* Contato */
+  .contactoUno {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  form {
+    display: flex;
+    justify-content: flex-start; }
+  .formUno {
+    display: flex;
+    flex-direction: column;
+    margin: 30px; }
+  .formDos {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 50px; }
+  .contactoDos h2 {
+    font-size: 30px; }
+  .imagenContacto {
+    display: flex;
+    justify-content: center; } }
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .vestidoIndex {
+    width: 100%;
+    animation-name: imagenAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: initial; }
+  @keyframes imagenAnimation {
+    from {
+      margin-left: -1000px; } }
+  h1 {
+    text-align: center;
+    font-size: 90px;
+    color: #553639; }
+  .contenedorUnoIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .contenedorUnoIndex h2 {
+    font-size: 60px;
+    color: #805156; }
+  .contenedorDosIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 100%; }
+  .hijoUno img {
+    width: 90%; }
+  .camison {
+    width: 90%; }
+  .hijoUno h3, .hijoDos h3 {
+    font-size: 80px;
+    text-align: center; }
+  .hijoUno, .hijoDos {
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .pantuflas {
+    width: 90%; }
+  /* PAGINA PRODUCTOS*/
+  .contenedorProd1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 5px; }
+  .contenedorProd1 h2 {
+    font-size: 40px; }
+  .contenedorProd2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px; }
+  .contenedorProd2 h3 {
+    margin-right: 20px;
+    font-size: 40px; }
+  .contenedorProd3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 5px; }
+  .contenedorProd3 h2 {
+    margin-left: 20px;
+    font-size: 40px; }
+  .contenedorProd1 img, .contenedorProd2 img, .contenedorProd3 img {
+    width: 80%; }
+  /* PAGINA PREGUNTAS FRECUENTES */
+  .preguntasUno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px; }
+  .preguntasUno img {
+    width: 80%; }
+  .preguntasDos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .preguntasDos p {
+    text-align: center;
+    font-size: 25px; }
+  .preguntasDos h2, .preguntasTres h2, .preguntasCuatro h3 {
+    font-size: 35px; }
+  .preguntasTres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+  .preguntasTres p {
+    font-size: 25px;
+    text-align: center; }
+  .preguntasCuatro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    justify-content: center; }
+  .preguntasCuatro p {
+    font-size: 25px;
+    text-align: center; }
+  /*QUIENES SOMOS */
+  .contenedorNosotros {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 0.5fr 0.5fr;
+    grid-template-areas: "nosotrosUno" "nosotrosDos" "nosotrosTres";
+    justify-content: center;
+    align-items: center; }
+  .nosotrosUno {
+    grid-area: nosotrosUno;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center; }
+  .nosotrosUno img {
+    width: 80%; }
+  .nosotrosUno div {
+    margin: 20px; }
+  .nosotrosUno p {
+    font-size: 30px;
+    text-align: center; }
+  .nosotrosDos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: nosotrosDos;
+    font-size: 30px;
+    margin: 30px;
+    text-align: center; }
+  .videoNosotros {
+    grid-area: nosotrosTres;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-top: -10px; }
+  .videoNosotros iframe {
+    width: 80%; }
+  /* Contato */
+  .contactoUno {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .contactoUno h2 {
+    text-align: center; }
+  form {
+    padding: 20px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px; }
+  .formUno {
+    display: flex;
+    flex-direction: column; }
+  .formDos {
+    display: flex;
+    flex-direction: column-reverse; }
+  .formularios input {
+    padding: 10px;
+    font-size: larger; }
+  .formDos input:hover {
+    background-color: #FFA1AC; }
+  .contactoDos h2 {
+    font-size: 25px;
+    margin: 20px; }
+  .imagenContacto {
+    display: flex;
+    justify-content: center; }
+  .imagenContacto img {
+    width: 100%; }
+  .formularios {
+    display: flex;
+    flex-direction: column; } }
+
+* {
+  font-family: 'Playfair Display', serif; }
+
+header {
+  background-color: #FFA1AC;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center; }
+  header ul {
+    list-style: none;
+    display: flex; }
+    header ul li {
+      margin: 25px;
+      font-size: 20px; }
+      header ul li a {
+        text-decoration: none; }
+  header .menuhamburguesa {
+    display: flex;
+    background-color: #FFA1AC; }
+    header .menuhamburguesa .contenedorHamburguesa {
+      display: flex; }
+      header .menuhamburguesa .contenedorHamburguesa .navbar-brand {
+        width: 50%; }
+        header .menuhamburguesa .contenedorHamburguesa .navbar-brand img {
+          width: 40%; }
+
+/*             */
+@media (max-width: 576px) {
+  @keyframes imagenAnimation {
+    from {
+      margin-left: -1000px; } }
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #553639; }
+  .contenedorUnoIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .contenedorUnoIndex .vestidoIndex {
+      width: 100%;
+      animation-name: imagenAnimation;
+      animation-duration: 3s;
+      animation-iteration-count: initial; }
+    .contenedorUnoIndex h2 {
+      color: #AA6B73; }
+  .contenedorDosIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 80%; }
+    .contenedorDosIndex .hijoUno {
+      width: 100%;
+      margin: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .contenedorDosIndex .hijoUno img {
+        width: 90%; }
+      .contenedorDosIndex .hijoUno h3 {
+        font-size: 25px;
+        text-align: center; }
+    .contenedorDosIndex .hijoDos {
+      width: 100%;
+      margin: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .contenedorDosIndex .hijoDos .camison {
+        width: 90%; }
+      .contenedorDosIndex .hijoDos h3 {
+        font-size: 25px;
+        text-align: center; }
+      .contenedorDosIndex .hijoDos .pantuflas {
+        width: 90%; }
+  /* PAGINA PRODUCTOS*/
+  .contenedorProd1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 5px; }
+    .contenedorProd1 h2 {
+      font-size: 40px; }
+  .contenedorProd2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px; }
+    .contenedorProd2 h3 {
+      margin-right: 20px;
+      font-size: 40px; }
+  .contenedorProd3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 5px; }
+    .contenedorProd3 h2 {
+      margin-left: 20px;
+      font-size: 40px; }
+  .contenedorProd1 img, .contenedorProd2 img, .contenedorProd3 img {
+    width: 80%; }
+  /* PAGINA PREGUNTAS FRECUENTES */
+  .preguntasUno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px; }
+    .preguntasUno img {
+      width: 80%; }
+  .preguntasDos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .preguntasDos p {
+      text-align: center;
+      font-size: 25px; }
+  .preguntasDos h2, .preguntasTres h2, .preguntasCuatro h3 {
+    font-size: 35px; }
+  .preguntasTres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    .preguntasTres p {
+      font-size: 25px;
+      text-align: center; }
+  .preguntasCuatro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    justify-content: center; }
+    .preguntasCuatro p {
+      font-size: 25px;
+      text-align: center; }
+  /*QUIENES SOMOS */
+  .contenedorNosotros {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 0.5fr 0.5fr;
+    grid-template-areas: "nosotrosUno" "nosotrosDos" "nosotrosTres";
+    justify-content: center;
+    align-items: center; }
+    .contenedorNosotros .nosotrosUno {
+      grid-area: nosotrosUno;
+      display: flex;
+      flex-direction: column;
+      margin-top: 50px;
+      align-items: center; }
+      .contenedorNosotros .nosotrosUno img {
+        width: 80%; }
+      .contenedorNosotros .nosotrosUno div {
+        margin: 20px; }
+      .contenedorNosotros .nosotrosUno p {
+        font-size: 20px;
+        text-align: center; }
+    .contenedorNosotros .nosotrosDos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      grid-area: nosotrosDos;
+      font-size: 20px;
+      margin: 10px;
+      text-align: center; }
+    .contenedorNosotros .videoNosotros {
+      grid-area: nosotrosTres;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+      margin-top: -10px; }
+      .contenedorNosotros .videoNosotros iframe {
+        width: 80%; }
+  /* Contato */
+  .contactoUno {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .contactoUno h2 {
+      font-size: medium;
+      text-align: center; }
+  .contactoDos form {
+    padding: 20px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px; }
+    .contactoDos form .formularios {
+      display: flex;
+      flex-direction: column; }
+      .contactoDos form .formularios .formUno {
+        display: flex;
+        flex-direction: column; }
+      .contactoDos form .formularios .formDos {
+        display: flex;
+        flex-direction: column-reverse; }
+        .contactoDos form .formularios .formDos input:hover {
+          background-color: #FFA1AC; }
+  .contactoDos h2 {
+    font-size: 20px;
+    margin: 20px; }
+  .imagenContacto {
+    display: flex;
+    justify-content: center; }
+    .imagenContacto img {
+      width: 100%; } }
+
+footer {
+  text-align: center;
+  color: grey;
+  font-size: 100%; }
+  footer p {
+    padding: 1rem; }
+  footer div {
+    width: 100%;
+    height: 1px;
+    background-color: grey; }

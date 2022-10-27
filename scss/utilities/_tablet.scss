@@ -1,0 +1,283 @@
+@import "../base/variables";
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+    .vestidoIndex {
+        width: 100%;
+        animation-name: imagenAnimation;
+        animation-duration: 3s;
+        animation-iteration-count: initial;
+
+    }
+
+    
+    
+    @keyframes imagenAnimation {
+        from {
+            margin-left: -1000px;
+        }
+    
+    }
+    
+    
+    h1{
+        text-align: center;
+        font-size: 90px;
+        color: $colorSecundario;
+        
+    }
+    .contenedorUnoIndex {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    .contenedorUnoIndex h2{
+        font-size: 60px;
+        color: #805156;
+    }
+    
+    .contenedorDosIndex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        width: 100%;
+    }
+    
+    .hijoUno img{
+        width: 90%;
+    }
+    
+    .camison{
+        width: 90%;
+    }
+    .hijoUno h3, .hijoDos h3{
+        font-size: 80px;
+        text-align: center;
+    }
+    
+    .hijoUno, .hijoDos {
+
+        width: 100%;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pantuflas {
+        width: 90%;
+    }
+
+    /* PAGINA PRODUCTOS*/
+    .contenedorProd1{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    
+    }
+    .contenedorProd1 h2{
+        font-size: 40px;
+    }
+    .contenedorProd2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 5px;
+    }
+    .contenedorProd2 h3{
+        margin-right: 20px;
+        font-size: 40px;
+    
+    }
+    .contenedorProd3 {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin: 5px;
+    }
+    .contenedorProd3 h2{
+        margin-left: 20px;
+        font-size: 40px;
+    }
+    .contenedorProd1 img, .contenedorProd2 img, .contenedorProd3 img {
+        width: 80%;
+
+    }
+
+    /* PAGINA PREGUNTAS FRECUENTES */
+    
+    .preguntasUno{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    
+    }
+
+    .preguntasUno img {
+        width: 80%;
+    }
+
+    .preguntasDos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .preguntasDos p {
+        
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .preguntasDos h2, .preguntasTres h2, .preguntasCuatro h3{
+        font-size: 35px;
+    }
+    
+    .preguntasTres {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .preguntasTres p{
+        
+        font-size: 25px;
+        text-align: center;
+    }
+    .preguntasCuatro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+        justify-content: center;
+    }
+    .preguntasCuatro p{
+        
+        font-size: 25px;
+        text-align: center;
+        
+
+    }
+    
+    /*QUIENES SOMOS */
+
+    .contenedorNosotros {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 0.5fr 0.5fr;
+        grid-template-areas: "nosotrosUno"
+                             "nosotrosDos"
+                             "nosotrosTres";
+        justify-content: center;
+        align-items: center;                     
+    }
+    
+    .nosotrosUno {
+        grid-area: nosotrosUno;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
+    }
+    .nosotrosUno img{
+        width: 80%;
+    }
+    .nosotrosUno div {
+        margin: 20px;
+    }
+    .nosotrosUno p {
+        font-size: 30px;
+        text-align: center;
+    }
+    .nosotrosDos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-area: nosotrosDos;
+        
+        font-size: 30px;
+        margin: 30px;
+        text-align: center;
+       
+    }
+    .videoNosotros {
+        grid-area: nosotrosTres;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        margin-top: -10px;
+    }
+    
+    .videoNosotros iframe{
+        width: 80%;
+    }
+    
+    /* Contato */
+    
+    .contactoUno {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactoUno h2 {
+        text-align: center;
+    }
+
+    form{
+        padding: 20px;
+        width: 80%;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 50px;
+    }
+
+    .formUno {
+        display: flex;
+        flex-direction: column;
+    }
+    .formDos {
+        display: flex;
+        flex-direction:column-reverse;
+    }
+
+    .formularios input {
+        padding: 10px;
+        font-size: larger;
+    }
+
+
+    .formDos input:hover {
+        background-color: $colorPrincipal;
+    }
+    .contactoDos h2{
+        font-size: 25px;
+        margin: 20px;
+
+    }
+    .imagenContacto {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .imagenContacto img  {
+        width: 100%
+
+    }
+
+    .formularios {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
