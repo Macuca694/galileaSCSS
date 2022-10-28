@@ -1,0 +1,45 @@
+@mixin transformaciones($transform){
+    -webkit-transform: $transform;
+    -o-transform: $transform;
+    -moz-transform: $transform;
+    $transform: transform;
+}
+@mixin animaciones($animation){
+    -webkit-animation: $animation;
+    -o-animation: $animation;
+    -moz-animation: $animation;
+}
+@mixin form {
+    
+        display: flex;
+        justify-content: flex-start;
+        input {
+            margin: 0.5rem;
+            padding: 0.3rem;
+            border-radius: 0.5rem;
+        }
+        textarea {
+            background-color: lightgray;
+            padding: 0.3rem;
+        }
+        input:hover {
+            box-shadow: 2px 2px 10px $colorSecundario ;
+        }
+        .formUno {
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+        }
+        .formDos {
+            display: flex;
+            flex-direction:column-reverse;
+            margin: 30px;
+            .button:active {
+                background-color: $colorPrincipal;   
+            }
+            .button {
+                transition: 0.2s ease;
+            }
+        
+    }
+}

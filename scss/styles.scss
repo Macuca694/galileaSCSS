@@ -1,6 +1,7 @@
 @import "utilities/desktop";
 @import "utilities/tablet";
 @import "base/variables";
+@import "base/mixin";
 
 *{
     font-family: 'Playfair Display', serif;
@@ -283,32 +284,13 @@ header {
     }
 
     .contactoDos {
-        form{
-            .formularios {
-                display: flex;
-                flex-direction: column;
-                .formUno {
-                    display: flex;
-                    flex-direction: column;
-                }
-                .formDos {
-                    display: flex;
-                    flex-direction:column-reverse;   
-                    input:hover {
-                        background-color: $colorPrincipal;
-                    } 
-                }
-            }
-            padding: 20px;
-            width: 100%;
-            border: 2px solid black;
-            border-radius: 10px;  
+        form {
+            @include form 
         }
         h2{
             font-size: 20px;
             margin: 20px;
         }
-    
     }
 
     .imagenContacto {

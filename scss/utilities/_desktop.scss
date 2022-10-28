@@ -1,4 +1,6 @@
 @import "../base/variables";
+@import "../base/mixin";
+
 
 @media (min-width:992px) {
     .vestidoIndex {
@@ -23,57 +25,66 @@
         display: flex; 
         flex-direction: column;
         justify-content: center;
-        align-items: center; 
+        align-items: center;
+        h2 {
+            color: $colorSecundario;
+        } 
     }
-    .contenedorUnoIndex h2{
-        color: $colorSecundario;
-    }
+  
 
     .contenedorDosIndex{
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 50px;
+        .pantuflas, .camison, .pantalonesIndex {
+            transition: 0.3s ease ;
+        }
+        .pantuflas:hover, .camison:hover, .pantalonesIndex:hover {
+            @include transformaciones(scale(0.90));
+        }
+        .hijoUno img {
+            width: 80%;
+        }
+        .camison {
+            width: 70%;
+        }
+        .hijoUno h3, .hijoDos h3{
+            font-size: 45px;
+            text-align: center;
+        }
     }
 
-    .hijoUno img{
-        width: 80%;
-    }
-
-    .camison{
-        width: 70%;
-    }
-    .hijoUno h3, .hijoDos h3{
-        font-size: 45px;
-        text-align: center;
-    }
 
     /* PAGINA PRODUCTOS*/
     .contenedorProd1{
         display: flex;
         align-items: center;
+        h2 {
+            margin-left: 20px;
+            font-size: 40px;
+        }
     }
-    .contenedorProd1 h2{
-        margin-left: 20px;
-        font-size: 40px;
-    }
+    
     .contenedorProd2 {
         display: flex;
         justify-content: end;
         align-items: center;
+        h3 {
+            margin-right: 20px;
+            font-size: 40px;
+        }
     }
-    .contenedorProd2 h3{
-        margin-right: 20px;
-        font-size: 40px;
-    }
+    
     .contenedorProd3 {
         display: flex;
         align-items: center;
+        h2 {
+            margin-left: 20px;
+            font-size: 40px;
+        }
     }
-    .contenedorProd3 h2{
-        margin-left: 20px;
-        font-size: 40px;
-    }
+   
     
     /* PAGINA PREGUNTAS FRECUENTES */
 
@@ -88,12 +99,13 @@
         flex-direction: column;
         align-items: flex-end;
         margin: 30px;
+        p {
+            width: 50%;
+            text-align: right;
+            font-size: 25px;
+        }
     }
-    .preguntasDos p {
-        width: 50%;
-        text-align: right;
-        font-size: 25px;
-    }
+    
 
     .preguntasDos h2, .preguntasTres h2, .preguntasCuatro h3{
         font-size: 40px;
@@ -104,22 +116,24 @@
         flex-direction: column;
         align-items: flex-start;
         margin: 30px;
+        p {
+            width: 50%;
+            font-size: 25px;
+        }
     }
-    .preguntasTres p{
-        width: 50%;
-        font-size: 25px;
-    }
+   
     .preguntasCuatro {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         margin: 30px;
+        p {
+            width: 50%;
+            font-size:25px;
+            text-align: right;
+        }
     }
-    .preguntasCuatro p{
-        width: 50%;
-        font-size:25px;
-        text-align: right;
-    }
+   
 
     /*QUIENES SOMOS */
 
@@ -127,17 +141,18 @@
         display: flex;
         margin-top: 70px;
         align-items: center;
+        img {
+            width: 50%;
+        }
+        div {
+            margin: 50px;
+        }
+        p {
+            font-size: 25px;
+            text-align: center;
+        }
     }
-    .nosotrosUno img{
-        width: 50%;
-    }
-    .nosotrosUno div {
-        margin: 50px;
-    }
-    .nosotrosUno p {
-        font-size: 25px;
-        text-align: center;
-    }
+   
     .nosotrosDos {
         width: 40%;
         font-size: 30px;
@@ -148,11 +163,12 @@
         display: flex;
         justify-content: center;
         margin: 90px;
+        iframe {
+            width: 50%;
+        }
     }
 
-    .videoNosotros iframe{
-        width: 50%;
-    }
+   
 
     /* Contato */
 
@@ -161,20 +177,11 @@
         flex-direction: column;
         align-items: center;
     }
-    form{
-        display: flex;
-        justify-content: flex-start;
+    
+    form {
+        @include form; 
     }
-    .formUno {
-        display: flex;
-        flex-direction: column;
-        margin: 30px;
-    }
-    .formDos {
-        display: flex;
-        flex-direction:column-reverse;
-        margin: 50px;
-    }
+   
 
     .contactoDos h2{
         font-size: 30px;
